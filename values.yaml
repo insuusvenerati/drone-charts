@@ -27,7 +27,7 @@ securityContext: {}
   # runAsNonRoot: true
   # runAsUser: 1000
 
-config: {}
+extraSecretNamesForEnvFrom: []
   # DRONE_BITBUCKET_CLIENT_ID
   # String value. Configures the Bitbucket OAuth client id. This is used to
   # authorize access to Bitbucket on behalf of a Drone user.
